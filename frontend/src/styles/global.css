@@ -1,0 +1,62 @@
+/* src/styles/global.css */
+
+/* Estilo para el modo oscuro por defecto */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el modo claro (opcional) */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.light-mode a {
+    color: blue;
+}
+
+/* Estilos específicos para el modo oscuro */
+.dark-mode .list-group {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+}
+
+.dark-mode .list-group-item {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #333;
+}
+
+/* Estilos para el botón en modo oscuro */
+.dark-mode .btn {
+    color: #000000;
+    background-color: #bb86fc;
+    border: none;
+}
+
+.dark-mode .btn-light {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/* Estilos para el botón en modo claro */
+.light-mode .btn {
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+}
+
+.light-mode .btn-light {
+    color: #ffffff;
+    background-color: #000000;
+}
